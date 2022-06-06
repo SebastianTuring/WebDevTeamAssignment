@@ -1,121 +1,110 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="refresh" content="200">
-		<meta name="author" content="Team 74">
-		<meta name="description" content="Team 74 theme park main page">
-		<meta name="keywords" content="Theme park">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-         ul {
-             list-style-type: none;
-             margin: 0;
-             padding: 0;
-             overflow: hidden;
-             background-color: #91dde2;
-            }
 
-         li {
-             float: right;
-            }
-          
-            li a {
-              display: block;
-              color: black;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-                }
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="200">
+	<meta name="author" content="Team 74">
+	<meta name="description" content="Team 74 theme park main page">
+	<meta name="keywords" content="Theme park">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+</head>
 
-             li a:hover {
-              background-color: rgb(255, 255, 255);
-                        }
-        </style>
-	</head>
-	<body style="background-color: rgb(255, 255, 255);">
-	      <ul>
-        <li><a class="active" href="#Jobs">Jobs</a></li>
-        <li><a href="#Accessibility">Accessibility</a></li>
-        <li><a href="#Breaks">Breaks</a></li>
-        <li><a href="#Tickets">Tickets</a></li>
-        <li><a href="#Opening Times">Opening Times</a></li>
-        </ul>
+<body style="background-color: rgb(255, 255, 255);">
+	<ul>
+		<li><a class="active" href="#Jobs">Jobs</a></li>
+		<li><a href="#Accessibility">Accessibility</a></li>
+		<li><a href="#Breaks">Breaks</a></li>
+		<li><a href="#Tickets">Tickets</a></li>
+		<li><a href="#Opening Times">Opening Times</a></li>
+	</ul>
 	<header>
 		<!-- Wrapper div that contains all the elements in the header-->
 		<div id="headerDiv">
 			<div style="padding:20px;text-align: center;float:left">
 				<a href="index.html">
-				<img src="Assets/Logo.png" alt="Logo" width="300" height="150">
+					<img src="Assets/Logo.png" alt="Logo" width="300" height="150">
 				</a>
 			</div>
-			
+
 		</div>
 	</header>
 	<div id="Backgroundgradient" style="text-align: center; position: absolute; top: 25%; left: .6%;">
 		<svg width="2400" height="550">
 			<defs>
 				<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
-				  <stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
-				  <stop offset="50%" style="stop-color:rgb(250, 124, 20);stop-opacity:1" />
-				  <stop offset="100%" style="stop-color:rgb(108, 108, 252);stop-opacity:1" />
+					<stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
+					<stop offset="50%" style="stop-color:rgb(250, 124, 20);stop-opacity:1" />
+					<stop offset="100%" style="stop-color:rgb(108, 108, 252);stop-opacity:1" />
 				</linearGradient>
-			  </defs>
-			<rect width="1500" height="550" fill="url(#grad1)"/>
+			</defs>
+			<rect width="1500" height="550" fill="url(#grad1)" />
 		</svg>
-		</div>
+	</div>
 	<!--Div that will contain all photos of attraction and be able to scroll through them-->
 	<div id="AttractionPhotos" style="text-align: center; position: absolute; top: 25%; left: 25%;">
 		<img src="Assets/AP3.jpg" alt="Ride" width="800" height="550">
-		
+
 	</div>
-	
+
 	<!--Div that contains Tickets and Events elements-->
 	<div>
 		<div style="text-align: center; position: absolute; top: 85%; left: 25%">
-		 <svg width="1500" height="550">
-			<defs>
-				<linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-				  <stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
-				</linearGradient>
-			  </defs>
-			<a href= "tickets.html">
-				<rect width="250" height="100" fill="url(#grad2)"/>
-				<text x="60" y="65" font-size="40" fill="black">Tickets!</text>
-			</a>
-		</svg>
-		
+			<svg width="1500" height="550">
+				<defs>
+					<linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
+					</linearGradient>
+				</defs>
+				<a href="tickets.html">
+					<rect width="250" height="100" fill="url(#grad2)" />
+					<text x="60" y="65" font-size="40" fill="black">Tickets!</text>
+				</a>
+			</svg>
+
 		</div>
 
-	    
-			<div style="text-align: center; position: absolute; top: 85%; left: 61.2%">
-			 <svg width="1500" height="550">
+
+		<div style="text-align: center; position: absolute; top: 85%; left: 61.2%">
+			<svg width="1500" height="550">
 				<defs>
 					<linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
-					  <stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
+						<stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
 					</linearGradient>
-				  </defs>
-				<a href= "events.html">
-					<rect width="250" height="100" fill="url(#grad3)"/>
+				</defs>
+				<a href="events.html">
+					<rect width="250" height="100" fill="url(#grad3)" />
 					<text x="60" y="65" font-size="40" fill="black">Events!</text>
 				</a>
 			</svg>
-			
-			</div>
 
-		
+		</div>
+
+
 	</div>
 	<!--Div that contain the review of the theme park-->
 	<div style="text-align: left; position: absolute; top: 105%; left: .6%; color: black; font-size: 24px;">
-		<p>"Last year was the best for my family and I, the buffet of the theme park was faboluos and they even offer a vegan alternative for my daugthter. My wife an I had an amazing time in the Casino while our children enjoyed all of the atracctions. I normally don't get worked out over little things but I want to talk about how amazing the security was, thanks to the flawless security meassures my wife and I were able to stay calm at all times even if we didn't know exactly where our kids were"<address>-Homer Simpson</address></p>
+		<p>"Last year was the best for my family and I, the buffet of the theme park was faboluos and they even offer a
+			vegan alternative for my daugthter. My wife an I had an amazing time in the Casino while our children
+			enjoyed all of the atracctions. I normally don't get worked out over little things but I want to talk about
+			how amazing the security was, thanks to the flawless security meassures my wife and I were able to stay calm
+			at all times even if we didn't know exactly where our kids were"
+		<address>-Homer Simpson</address>
+		</p>
 	</div>
 
 	<footer>
 		<!--Wrapper div that contains all the elements in the footer-->
 		<div id="footerDiv" style="position: absolute; text-align: center; top: 125%;">
-			<div style="padding:20px;text-align: center;float:left"><address>Security Info / Contact</address></div>
+			<div style="padding:20px;text-align: center;float:left">
+				<address>Security Info / Contact</address>
+			</div>
 			<div style="padding:20px;text-align: center;float:left">Visitor Info</div>
-			<div style="padding:20px;text-align: center;float:left"><address>Company Info / Customer Support</address></div>
+			<div style="padding:20px;text-align: center;float:left">
+				<address>Company Info / Customer Support</address>
+			</div>
 		</div>
 	</footer>
-	</body>
+</body>
+
 </html>
