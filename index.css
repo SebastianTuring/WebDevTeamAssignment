@@ -12,7 +12,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 15px;
-  }
+}
 
 .slide {
     width: 100%;
@@ -54,36 +54,39 @@
     top: 45%;
     right: 2%;
 }
-h1,h2
-						 {
-							  font-size:50px;
-								color:white;
-								font-family:Arial, Helvetica, sans-serif;
-								border: 1px solid black;
-	              padding: 100px 100px 100px 100px;
-	              background-color: DarkBlue
-						 }
-						 p{
-							 font-size:20px;
-							 color:DodgerBlue
-						 }
-						.Subsection
-						 {
-							 border: 1px solid black;
-               padding: 100px 100px 100px 100px;
-               background-color: white;
-						 }
 
-			       body{
-							 background-color: DarkBlue;
-						     }
- .CommentBox{
-   border: 1px solid black;
-   padding: 100px 100px 100px 100px;
-   background-color: Gainsboro;
-           }
-.CommentWriting{
-  font-size:40px;
-  font-style: italic;
-  color:red
+h1, h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 100px 100px 100px 100px;
+    background-color: DarkBlue
+}
+
+p {
+    font-size: 20px;
+    color: DodgerBlue
+}
+
+.Subsection {
+    border: 1px solid black;
+    padding: 100px 100px 100px 100px;
+    background-color: white;
+}
+
+body {
+    background-color: DarkBlue;
+}
+
+.CommentBox {
+    border: 1px solid black;
+    padding: 100px 100px 100px 100px;
+    background-color: Gainsboro;
+}
+
+.CommentWriting {
+    font-size: 40px;
+    font-style: italic;
+    color: red
 }
