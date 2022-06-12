@@ -1,13 +1,14 @@
 body {
-    margin :0;
-    background-color: DarkBlue;
-    }
-p{
-  font-size:20px;
-  color:DodgerBlue
+  margin: 0;
+  background-color: DarkBlue;
 }
-.Subsection
-{
+
+p {
+  font-size: 20px;
+  color: DodgerBlue
+}
+
+.Subsection {
   border: 1px solid black;
   padding: 100px 100px 100px 100px;
   background-color: white;
