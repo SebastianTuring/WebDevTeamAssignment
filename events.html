@@ -27,38 +27,97 @@
 			<i class="fa fa-bars"></i>
 		</a>
 	</div>
-	<!--Div that contains the main photo of the events page-->
-	<div style="text-align: center; position: absolute; top: 10%; left: 30%;">
-		<img src="Assets/Events.jpg" alt="Halloween Event Photo" width="800" height="550">
-	</div>
 	<!--Div that contains the Event Info Paragraph-->
-	<div style="text-align: left; position: absolute; top: 75%;padding: 50px;">
-		<p>
-		<h1>Event Info:</h1>
-		</p>
-		<p style="font-size: 24px;">Our Theme Park holds different events throurough the year. Our main seasonal events
-			are Christmas and Hallowen but we also hold other events daily</p>
-		<h2>Races:</h2>
-		<p style="font-size: 20px;">This event is open for everyone older than 12 years old, those who want to
-			participate go to the race track and the staff will provide further information.
-			The winners get a "One Week Ticket" as a reward</p>
-		<h2>Talent Show:</h2>
-		<p style="font-size: 20px;">This event is open for everyone older than 5 years old, those who want to
-			participate go to the platform in the main square and the staff will provide further information.
-			The winner gets a "One Week Ticket" as a reward</p>
-	</div>
-	<!--Div that contains the Event Times and Dates-->
-	<div style="text-align: left; position: absolute; top: 115%;padding: 50px;">
-		<h2>Daily Event Times and Dates</h2>
-		<h3>Races: Tuesdays, Thursdays and Satudays, the time depends on the staff decision.</h3>
-		<h3>Talent Show: Wednesday, Friday and Sunday, the time depends on the staff decision.</h3>
-		<h2>Special Event Times and Dates</h2>
-		<h3>Christmas: From december 20 to january first, 4:00pm to 1:00am </h3>
-		<h3>Halloween: From October 5 to October 31, 12:00pm to 1:00am</h3>
+	<div class="container">
+		<div>
+			<p>
+			<h1>Event Info:</h1>
+			</p>
+			<p style="font-size: 24px;">Our Theme Park holds different events throurough the year. Our main seasonal
+				events
+				are Christmas and Hallowen but we also hold other events daily</p>
+			<fieldset class="events daily">
+				<legend>Daily Events</legend>
+				<div class="box left">
+					<div event class="event image">
+						<img src="./Assets/Events_1_race.jpg" alt="Races Event Photo">
+					</div>
+					<div event class="event text">
+						<h2>Races:</h2>
+						<p class="description">This event is open for everyone older than 12 years old, those who
+							want
+							to
+							participate go to the race track and the staff will provide further information.
+							The winners get a "One Week Ticket" as a reward
+						</p>
+						<h3>Daily Event Times and Dates: </h3>
+						<p>
+							Tuesdays, Thursdays and Satudays, the time depends on the staff decision.
+						</p>
+
+
+					</div>
+				</div>
+
+				<div class="box right">
+					<div event class="event image">
+						<img src="./Assets/Events_2_talentShow.jpg" alt="talent Show Event Photo">
+					</div>
+					<div event class="event text">
+						<h2>Talent Show:</h2>
+						<p class="description">This event is open for everyone older than 5 years old, those who want to
+							participate go to the platform in the main square and the staff will provide further
+							information.
+							The winner gets a "One Week Ticket" as a reward</p>
+						<h3>Daily Event Times and Dates: </h3>
+						<p>
+							Tuesdays, Thursdays and Satudays, the time depends on the staff decision.
+						</p>
+					</div>
+				</div>
+
+			</fieldset>
+			<fieldset class="events Special">
+				<legend>Special Events</legend>
+
+				<div class="box left">
+					<div event class="event image">
+						<img src="./Assets/Events_3_halloween.jpg" alt="Halloween Event Photo">
+					</div>
+					<div event class="event text">
+						<h2>Races:</h2>
+						<p class="description">Upcoming...
+						</p>
+						<h3>Daily Event Times and Dates: </h3>
+						<p>
+							From december 20 to january first, 4:00pm to 1:00am
+						</p>
+
+
+					</div>
+				</div>
+
+				<div class="box right">
+					<div event class="event image">
+						<img src="./Assets/Events_4_christmas.jpg" alt="Christmas Event Photo">
+					</div>
+					<div event class="event text">
+						<h2>Talent Show:</h2>
+						<p class="description">Upcoming...</p>
+						<h3>Daily Event Times and Dates: </h3>
+						<p>
+							From October 5 to October 31, 12:00pm to 1:00am
+						</p>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+
 	</div>
 	<footer>
 		<!--Wrapper div that contains all the elements in the footer-->
-		<div id="footerDiv" style="position: absolute; text-align: center; top: 150%;">
+		<div id="footerDiv">
 			<div style="padding:20px;text-align: center;float:left">
 				<address>Security Info / Contact</address>
 			</div>

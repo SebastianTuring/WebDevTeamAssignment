@@ -1,3 +1,115 @@
 body {
-    margin :0
+    margin: 0;
+}
+
+h2 {
+    margin: 0
+}
+
+.container {
+    text-align: left;
+    padding: 50px;
+}
+
+.events {
+    margin-top: 20px;
+}
+
+legend {
+    font-size: 24px;
+
+}
+
+.box {
+    display: flex;
+    margin: 20px;
+}
+
+.box.left {
+    padding-left: 10px;
+
+}
+
+.box.left>.event.text {
+    position: relative;
+    white-space: wrap;
+    animation: floatTextLeft 1s;
+}
+.box.right>.event.text {
+    position: relative;
+    white-space: wrap;
+    animation: floatTextRight 1s;
+}
+
+.box.right {
+    flex-direction: row-reverse;
+    padding-right: 10px;
+}
+
+.event {
+    width: 50%;
+
+}
+
+
+fieldset {
+    border-radius: 20px;
+}
+
+.event.image>img {
+    object-fit: cover;
+    width: 100%;
+
+
+}
+
+.event.text {
+    margin: 10px;
+}
+
+.description {
+    font-size: 20px;
+
+
+}
+
+@-webkit-keyframes floatTextLeft {
+    from {
+        left: 80%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+@-webkit-keyframes floatTextRight {
+    from {
+        right: 80%;
+    }
+    to {
+        right: 0%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .box {
+        display: block;
+        margin: 0px;
+        padding: 0 !important;
+    }
+
+    .event {
+        width: 100%;
+    }
+
+    .event.text {
+        margin-left: 0px;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
 }
