@@ -90,3 +90,21 @@ body {
     font-style: italic;
     color: red
 }
+.tableEdit{
+  width: 1000%
+  border-collapse: collapse;
+  border: 1px solid white;
+  text-align: left;
+  padding: 100px 100px 100px 300px;
+  background-color: DarkBlue;
+}
+
+.whiteHeading{
+  font-size:20px;
+  color:white
+}
+.whiteSubtext{
+  font-size:10px;
+  color:white;
+  width:10%
+}
