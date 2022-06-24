@@ -1,0 +1,23 @@
+#footerDiv {
+    text-align: center
+}
+
+.tableEdit {
+    width: 1000% border-collapse: collapse;
+    /* border: 100px solid white; */
+    text-align: left;
+    padding: 50px 50px 50px 100px;
+    background-color: DarkBlue;
+    cellspacing: 10px;
+}
+
+.footerHeading {
+    font-size: 20px;
+    color: white
+}
+
+.footerSubtext {
+    font-size: 10px;
+    color: white;
+    width: 10%
+}
