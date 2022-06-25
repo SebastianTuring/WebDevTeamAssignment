@@ -11,13 +11,16 @@
     cellspacing: 10px;
 }
 
-.footerHeading {
+
+
+#footerDiv>*>*>*>th {
     font-size: 20px;
     color: white
 }
 
-.footerSubtext {
+#footerDiv>*>*>*>td {
     font-size: 10px;
     color: white;
     width: 10%
 }
+

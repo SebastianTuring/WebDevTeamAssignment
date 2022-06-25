@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="navBar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="footer.css">
 
 </head>
 
@@ -33,26 +34,13 @@
 
 
 
-		<div id="Backgroundgradient" style="text-align: center; position: absolute; top: 25%; left: .6%;">
-			<svg width="2400" height="550">
-				<defs>
-					<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
-						<stop offset="0%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
-						<stop offset="50%" style="stop-color:rgb(250, 124, 20);stop-opacity:1" />
-						<stop offset="100%" style="stop-color:rgb(108, 108, 252);stop-opacity:1" />
-					</linearGradient>
-				</defs>
-				<rect width="1500" height="550" fill="url(#grad1)" />
-			</svg>
-		</div>
 		<!--Div that will contain all photos of attraction and be able to scroll through them-->
-		<!-- <div id="AttractionPhotos" style="text-align: center; position: absolute; top: 25%; left: 25%;"> -->
 
 		<div class="slider">
 
 			<!-- slide 1 -->
 			<div class="slide">
-				<img src="Assets/AP3.jpg" alt="Ride" width="800" height="550">
+				<img src="Assets/AP3.jpg" alt="Ride">
 
 			</div>
 
@@ -66,104 +54,23 @@
 				<img src="Assets/slide3.png" alt="" />
 			</div>
 
-
 			<!-- Control buttons -->
-			<button class="btn btn-next">></button>
-			<button class="btn btn-prev"><</button>
+			<button class="btn btn-next">&lt</button>
+			<button class="btn btn-prev">&#60</button>
 		</div>
-
-
-		<!-- </div> -->
-
-		<!--Div that contains Tickets and Events elements-->
-		<div>
-			<div style="text-align: center; position: absolute; top: 85%; left: 25%">
-				<svg width="1500" height="550">
-					<defs>
-						<linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-							<stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
-						</linearGradient>
-					</defs>
-					<a href="tickets.html">
-						<rect width="250" height="100" fill="url(#grad2)" />
-						<text x="60" y="65" font-size="40" fill="black">Tickets!</text>
-					</a>
-				</svg>
-
-			</div>
-
-
-			<div style="text-align: center; position: absolute; top: 85%; left: 61.2%">
-				<svg width="1500" height="550">
-					<defs>
-						<linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
-							<stop offset="0%" style="stop-color:rgb(146, 223, 245);stop-opacity:1" />
-						</linearGradient>
-					</defs>
-					<a href="events.html">
-						<rect width="250" height="100" fill="url(#grad3)" />
-						<text x="60" y="65" font-size="40" fill="black">Events!</text>
-					</a>
-				</svg>
-
-			</div>
-
-			<div>
-				<div style="text-align: center; position: absolute; top: 100%; left: 10%;">
-					<img src="Assets/OneDayTicket.png" alt="One Day Ticket Photo" width="300" height="200">
-				</div>
-				<div class="Subsection" style="text-align: left; position: absolute; top: 100%; left: 60%;">
-					<p>
-					<h2>Escape on a Short Break:</h2>
-					</p>
-					<p>One day just isn't enough! Let the fantabulous fun continue with an amazing short break at our
-						Resort!</p>
-					<h2> Short Break packages include:</h2>
-					<p>An unforgettable overnight stay with breakfast </p>
-					<p>Mesmorising evening entertainment</p>
-					<p> Unlimited access to all ride</p>
-					<p>
-					<h2>Explore now!</h2>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div>
-			<div style="text-align: center; position: absolute; top: 400%; left: 80%;">
-				<img src="Assets/OneWeekTicket.png" alt="One Week Ticket Photo" width="300" height="200">
-			</div>
-			<div class="Subsection" style="text-align: left; position: absolute; top: 400%; left: 5%;">
-				<p>
-				<h2>One Week Ticket:</h2>
-				</p>
-				<p>With this ticket you will be granted access to the </p>
-				<p>theme park from the day you redeem it for 5 buisness days.</p>
-				<p>After the end of the fifth day your ticket will expire</p>
-				<p>
-				<h2>Price: 225£</h2>
-				</p>
-			</div>
-		</div>
-		<div>
-			<div style="text-align: center; position: absolute; top: 600%; left: 25%;">
-				<img src="Assets/AnnualTicket.png" alt="Annual Ticket Photo" width="300" height="200">
-			</div>
-			<div class="Subsection" style="text-align: left; position: absolute; top: 600%; left: 60%;">
-				<p>
-				<h2>Annual Ticket:</h2>
-				</p>
-				<p>With this ticket you and someone else of your choosing </p>
-				<p>will be granted access to the theme park for the entire year.</p>
-				<p>This ticket can only be bought on january as it last a callendar year</p>
-				<p>
-				<h2>Price: 12775£</h2>
-				</p>
-			</div>
+		<!-- div that contains button to redirect to other pages -->
+		<div class="redirectBtns">
+			<a href="tickets.html">
+				<div class="redirectBtn">Tickets!</div>
+			</a>
+			<a href="events.html">
+				<div class="redirectBtn">Events!</div>
+			</a>
 		</div>
 	</div>
-	<!--Div that contain the review of the theme park-->
-	<div class="CommentBox"
-		style="text-align: left; position: absolute; top: 1000%; left: .6%; color: black; font-size: 24px;">
+	<!-- customer CommentBox -->
+
+	<div class="CommentBox">
 		<p class=CommentWriting>"Last year was the best for my family and I, the buffet of the theme park was faboluos
 			and they even
 			offer a
@@ -176,50 +83,51 @@
 		<address>-Homer Simpson</address>
 		</p>
 	</div>
-	</div>
 
-	<footer id="footerBackGround">
-		<!--Wrapper div that contains all the elements in the footer-->
-		<div class="Subsection" style="position: absolute; text-align: center; top: 1325%;">
-			<table cellspacing="10px"  class="tableEdit">
-			<tr>
-			        <th class="whiteHeading">Security/Info</th>
-			        <th class="whiteHeading">Visitor Info</th>
-			        <th class="whiteHeading">Company info/ Customer Support</th>
-			        </tr>
-			        <tr>
-			          <td class="whiteSubtext">Privacy Policy</td>
-			          <td class="whiteSubtext">About Theme Park</td>
-			          <td class="whiteSubtext">Directions</td>
-			        <tr>
-			          <td class="whiteSubtext">Terms & Conditions</td>
-			          <td class="whiteSubtext">Blog</td>
-			          <td class="whiteSubtext">Opening Times</td>
-			        </tr>
-			        <tr>
-			          <td class="whiteSubtext">Cookies</td>
-			          <td class="whiteSubtext">Awards</td>
-			          <td class="whiteSubtext">Mobile App</td>
-			        </tr>
-			        <tr>
-			          <td class="whiteSubtext">Tresspass injunction</td>
-			          <td class="whiteSubtext">Our Mission</td>
-			          <td class="whiteSubtext">Disabled Access</td>
-			        </tr>
-			          <tr>
-			            <td class="whiteSubtext">Security Information</td>
-			            <td class="whiteSubtext">Ride Safety</td>
-			            <td class="whiteSubtext">Day Visits FAQs</td>
-			          </tr>
-			          <tr>
-			            <td class="whiteSubtext">Product Recall</td>
-			            <td class="whiteSubtext">Community & Charity</td>
-			            <td class="whiteSubtext">Short Break</td>
-			          </tr>
+	<!--Wrapper div that contains all the elements in the footer-->
+	<footer>
+		<div id="footerDiv">
+			<table cellspacing="10px" class="tableEdit">
+				<tr>
+					<th class>Security/Info</th>
+					<th class>Visitor Info</th>
+					<th class>Company info/ Customer Support</th>
+				</tr>
+				<tr>
+					<td class>Privacy Policy</td>
+					<td class>About Theme Park</td>
+					<td class>Directions</td>
+				<tr>
+					<td class>Terms & Conditions</td>
+					<td class>Blog</td>
+					<td class>Opening Times</td>
+				</tr>
+				<tr>
+					<td class>Cookies</td>
+					<td class>Awards</td>
+					<td class>Mobile App</td>
+				</tr>
+				<tr>
+					<td class>Tresspass injunction</td>
+					<td class>Our Mission</td>
+					<td class>Disabled Access</td>
+				</tr>
+				<tr>
+					<td class>Security Information</td>
+					<td class>Ride Safety</td>
+					<td class>Day Visits FAQs</td>
+				</tr>
+				<tr>
+					<td class>Product Recall</td>
+					<td class>Community & Charity</td>
+					<td class>Short Break</td>
+				</tr>
 
-			     </table>
+			</table>
 		</div>
 	</footer>
+
+
 </body>
 <script src="navBar.js"></script>
 <script src="index.js"></script>
