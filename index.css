@@ -5,8 +5,6 @@ body {
 }
 
 .container {
-    margin: 0;
-    height: 80vh;
     display: grid;
     place-items: center;
 }
@@ -14,7 +12,7 @@ body {
 .slider {
     width: 100%;
     max-width: 800px;
-    height: 350px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
@@ -23,7 +21,7 @@ body {
 .slide {
     width: 100%;
     max-width: 800px;
-    height: 350px;
+    height: 500px;
     position: absolute;
     transition: all 0.5s;
 }
@@ -83,8 +81,13 @@ p {
 
 .CommentBox {
     border: 1px solid black;
-    padding: 100px 100px 100px 100px;
+    padding: 50px 100px 50px 100px;
     background-color: Gainsboro;
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -96,19 +99,21 @@ p {
     justify-content: center;
     background-color: black;
 } */
-.redirectBtns{
-    display:flex;
+.redirectBtns {
+    display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     width: 80vw;
 
 }
-.redirectBtns a{
+
+.redirectBtns a {
     text-decoration: none;
 
 }
 
 .redirectBtn {
+    margin:20px;
     color: #db3eb1;
     border: 6px solid #db3eb1;
     border-radius: 15px;

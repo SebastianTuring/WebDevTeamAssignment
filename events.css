@@ -1,9 +1,47 @@
 body {
     margin: 0;
+    color: white;
+    background-color: darkblue;
 }
 
 h2 {
     margin: 0
+}
+
+legend {
+    outline: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #cc6cf2,
+    0 0 0.8rem #cc6cf2,
+    0 0 2.8rem #cc6cf2,
+    inset 0 0 1.3rem #cc6cf2;
+
+    padding:10px;
+    background-color: darkblue;
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #bc13fe,
+        0 0 45px #bc13fe,
+        0 0 55px #bc13fe,
+        0 0 70px #bc13fe,
+        0 0 80px #bc13fe;
+
+}
+
+fieldset {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        0 0 2.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;
 }
 
 .container {
@@ -35,6 +73,7 @@ legend {
     white-space: wrap;
     animation: floatTextLeft 1s;
 }
+
 .box.right>.event.text {
     position: relative;
     white-space: wrap;
@@ -77,6 +116,7 @@ fieldset {
     from {
         left: 80%;
     }
+
     to {
         left: 0%;
     }
@@ -86,6 +126,7 @@ fieldset {
     from {
         right: 80%;
     }
+
     to {
         right: 0%;
     }
